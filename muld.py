@@ -102,7 +102,7 @@ We follow the  process of the Scientific papers (Cohan  et  al.,2018) summarizat
 class MuldConfig(datasets.BuilderConfig):
     """BuilderConfig for MuLD."""
     def __init__(self, urls, citation, **kwargs):
-        super(MuLDConfig, self).__init__(version=datasets.Version("1.0.0"), **kwargs)
+        super(MuldConfig, self).__init__(version=datasets.Version("1.0.0"), **kwargs)
         self.features = datasets.Features({
             "input": datasets.Value("string"),
             "output": [datasets.Value("string")],
