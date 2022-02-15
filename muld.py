@@ -1,4 +1,4 @@
-"""The MuLD benchmark."""
+"""MuLD: The Multitask Long Document Benchmark"""
 
 import json
 import os
