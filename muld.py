@@ -48,8 +48,8 @@ The NarrativeQA Reading Comprehension Challenge Dataset consists of user-submitt
         "description": """\
 The HotpotQA dataset consists of questions from crowd workers which require information from multiple Wikipedia articles in order to answer, thus testing the ability for models to perform multi-hop question answering. The data is commonly presented as a list of paragraphs containing relevant information plus a setting where the addition of 'distractor paragraphs' fully test the ability of the model to comprehend which information is relevant to the question asked. To transform this into a long document, we expand each paragraph with its full Wikipedia page as well as adding additional distractor articles from similar topics (randomly chosen from links on the existing pages) in order to meet the 10,000 token minimum length requirement for this benchmark. These articles are shuffled and concatenated to form the model input.""",
         "urls": {
-            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1OlGRyCEL9JhwIQIKViaWIXCOB_pwj8xU",
-            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1_Svtg6PycBpezDYJ78zcJqLa8Ohnk6Gq"
+            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1OlGRyCEL9JhwIQIKViaWIXCOB_pwj8xU&confirm=t",
+            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1_Svtg6PycBpezDYJ78zcJqLa8Ohnk6Gq&confirm=t"
         }
 },
 
@@ -57,9 +57,9 @@ The HotpotQA dataset consists of questions from crowd workers which require info
         "description": """\
 The Character Archetype Classification dataset is based on the methodology of Skowron et al. (2016). For this dataset, each example consists of a movie script along with a named character and the task is to classify whether the character is a Hero/Protagonist or Villain/Antagonist based on understanding their role in the narrative.""",
         "urls": {
-            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1Ckabmzbrunj2np2piAN5_ooZgTiK9K5i",
-            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1I0N8gKD39s0wKLrcAJ0P-4uYdPqzTONS",
-            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1_AI6whuHfD1p3BF7TvOnr8Fs_lOVdt8j",
+            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1Ckabmzbrunj2np2piAN5_ooZgTiK9K5i&confirm=t",
+            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1I0N8gKD39s0wKLrcAJ0P-4uYdPqzTONS&confirm=t",
+            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1_AI6whuHfD1p3BF7TvOnr8Fs_lOVdt8j&confirm=t",
         }
 },
 
@@ -74,8 +74,8 @@ The Open Subtitles corpus (Lison et al., 2018) consists  of  aligned  subtitles 
   year={2018}
 }""",
         "urls": {
-            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=10QF5kL6nvWC4kHDieKx79K36RLdW1M1r",
-            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1KWPLYv2_7z_XIBWrWC3khXTNdPKhDF_X"
+            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=10QF5kL6nvWC4kHDieKx79K36RLdW1M1r&confirm=t",
+            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1KWPLYv2_7z_XIBWrWC3khXTNdPKhDF_X&confirm=t"
         }
 },
 
@@ -84,9 +84,9 @@ The Open Subtitles corpus (Lison et al., 2018) consists  of  aligned  subtitles 
 Style change detection is the task of identifying the points where the author changes in a document constructed from the work of multiple authors. We use stories contributed to the fanfiction website Archive of Our Own, which contains a large number of works submitted by fans of popular films, tv, game, and book charactersmakicab10mw.
 """,
         "urls": {
-            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1R29IQ_bFLw3_6DYLtP7YWFTGe7FQAevT",
-            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1B_RkTaMMOQXfJ7nDFCpq8GAth7yiW7vF",
-            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1-1eULJlV9nGrAwpdaEr5Ykchwfxn06kj"
+            datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&id=1R29IQ_bFLw3_6DYLtP7YWFTGe7FQAevT&confirm=t",
+            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1B_RkTaMMOQXfJ7nDFCpq8GAth7yiW7vF&confirm=t",
+            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1-1eULJlV9nGrAwpdaEr5Ykchwfxn06kj&confirm=t"
         }
     },
 
@@ -94,7 +94,7 @@ Style change detection is the task of identifying the points where the author ch
         "description": """\
 We follow the  process of the Scientific papers (Cohan  et  al.,2018) summarization  dataset, extracting papers from the open-access preprint server Arxiv.org using both the arxiv short abstract and the one included in the document (where available) as the reference summaries. In contrast to Cohan et al. (2018), rather than removing very long documents, we explicitly include them - removing any document with less than 10,000 tokens.""",
         "urls": {
-            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1ljTZZV5MpD07my2Vn1SVT3eQPKMVlHU5"
+            datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1ljTZZV5MpD07my2Vn1SVT3eQPKMVlHU5&confirm=t"
         }
     }
 }
