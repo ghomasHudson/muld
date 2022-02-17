@@ -23,7 +23,7 @@ ds = datasets.load_dataset("ghomasHudson/muld", "VLSP")
 If you prefer to download the data files yourself, `muld.py` contains all the urls.
 
 ## Citation
-If you use our code please cite the paper
+If you use our benchmark please cite the paper:
 ```
 @misc{hudson2022muld,
       title={MuLD: The Multitask Long Document Benchmark}, 
@@ -34,6 +34,8 @@ If you use our code please cite the paper
       primaryClass={cs.CL}
 }
 ```
+
+Additionally please cite the datasets we used (particularly NarrativeQA, HotpotQA, and Opensubtitles where we directly use their data with limited filtering).
 
 ### Dataset Metadata
 The following table is necessary for this dataset to be indexed by search
