@@ -7,12 +7,12 @@ import bz2
 
 _CITATION = """\
 @misc{hudson2022muld,
-    title{MuLD: The Multitask Long Document Benchmark},
-    author={G Thomas Hudson, Noura Al Moubayed}
-    year={2022},
-    eprint={TODO},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+      title={MuLD: The Multitask Long Document Benchmark}, 
+      author={G Thomas Hudson and Noura Al Moubayed},
+      year={2022},
+      eprint={2202.07362},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 Some of these datasets are directly based on existing datasets. Please cite these works.
 """
