@@ -13,6 +13,7 @@ ds = datasets.load_dataset("ghomasHudson/muld", "OpenSubtitles")
 ds = datasets.load_dataset("ghomasHudson/muld", "AO3 Style Change Detection")
 ds = datasets.load_dataset("ghomasHudson/muld", "VLSP")
 ```
+If you prefer to download the data files yourself, `muld.py` contains all the urls.
 
 ## Citation
 If you use our code please cite the paper
