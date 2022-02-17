@@ -1,6 +1,13 @@
 # MuLD: The Multitask Long Document Benchmark
 
-Official code for the paper [MuLD: The Multitask Long Document Benchmark](https://arxiv.org/abs/2202.07362).
+MuLD (Multitask Long Document Benchmark) is a set of 6 NLP tasks 
+where the inputs consist of at least 10,000 words. The benchmark covers a
+ wide variety of task types including translation, summarization, 
+question answering, and classification. Additionally there is a range of
+ output lengths from a single word classification label all the way up 
+to an output longer than the input text.
+
+This repo contains official code for the paper [MuLD: The Multitask Long Document Benchmark](https://arxiv.org/abs/2202.07362).
 
 ## Quickstart
 The easiest method is to use the [Huggingface Datasets](https://github.com/huggingface/datasets) library:
