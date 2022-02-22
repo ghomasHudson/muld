@@ -153,4 +153,6 @@ class Muld(datasets.GeneratorBasedBuilder):
                 row = json.loads(line)
                 if "metadata" not in row:
                     row["metadata"] = ""
+                if not isinstance(row["output"], list):
+                  row["output"] = [row["output"]]
                 yield idx, row
