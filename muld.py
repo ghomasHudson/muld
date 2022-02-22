@@ -154,5 +154,5 @@ class Muld(datasets.GeneratorBasedBuilder):
                 if "metadata" not in row:
                     row["metadata"] = ""
                 if not isinstance(row["output"], list):
-                  row["output"] = [row["output"]]
+                    row["output"] = [row["output"]]
                 yield idx, row
