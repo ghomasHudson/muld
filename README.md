@@ -7,6 +7,9 @@ question answering, and classification. Additionally there is a range of
  output lengths from a single word classification label all the way up 
 to an output longer than the input text.
 
+![muld_table](https://user-images.githubusercontent.com/13795113/165515242-76f5fe2a-4cda-428c-aaa1-ab1ca961a8bb.png)
+
+
 This repo contains official code for the paper [MuLD: The Multitask Long Document Benchmark](https://arxiv.org/abs/2202.07362).
 
 ## Quickstart
