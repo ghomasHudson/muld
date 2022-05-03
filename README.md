@@ -26,11 +26,17 @@ ds = datasets.load_dataset("ghomasHudson/muld", "VLSP")
 ## Manual Download
 If you prefer to download the data files yourself:
 - NarrativeQA [Train](https://drive.google.com/uc?export=download&confirm=yTib&id=1sUXIC6lmk9Khp2mnr9VZwQ-StDlHqTw1) [Val](https://drive.google.com/uc?&confirm=yTib&export=download&id=1xdXEhLHtcqOZh0FbPhY_dnvNMg2bALtm) [Test](https://drive.google.com/uc?confirm=yTib&export=download&id=1BPBXyfYWVGtOXVQv_hlqtvbT25rTQzGu)
+  - Mirror: [Train](https://collections.durham.ac.uk/downloads/r2r781wg08m) [Val](https://collections.durham.ac.uk/downloads/r2cf95jb47p) [Test](https://collections.durham.ac.uk/downloads/r2mk61rg96c)
 - HotpotQA [Train](https://drive.google.com/uc?export=download&confirm=yTib&id=1OlGRyCEL9JhwIQIKViaWIXCOB_pwj8xU), [Val](https://drive.google.com/uc?export=download&confirm=yTib&id=1_Svtg6PycBpezDYJ78zcJqLa8Ohnk6Gq)
+  - Mirror: [Train](https://collections.durham.ac.uk/downloads/r2t435gd01h) [Val](https://collections.durham.ac.uk/downloads/r21j92g751c)
 - Character Archetype Classification [Train](https://drive.google.com/uc?export=download&id=1Ckabmzbrunj2np2piAN5_ooZgTiK9K5i) [Val](https://drive.google.com/uc?export=download&id=1I0N8gKD39s0wKLrcAJ0P-4uYdPqzTONS) [Test](https://drive.google.com/uc?export=download&id=1_AI6whuHfD1p3BF7TvOnr8Fs_lOVdt8j)
+  - Mirror: [Train](https://collections.durham.ac.uk/downloads/r2jh343s34b) [Val](https://collections.durham.ac.uk/downloads/r2707957700) [Test](https://collections.durham.ac.uk/downloads/r2fx719m502)
 - OpenSubtitles [Train](https://drive.google.com/uc?export=download&id=10QF5kL6nvWC4kHDieKx79K36RLdW1M1r&confirm=yTib) [Test](https://drive.google.com/uc?export=download&id=1KWPLYv2_7z_XIBWrWC3khXTNdPKhDF_X)
-- Style Change [Train](https://drive.google.com/uc?export=download&id=1R29IQ_bFLw3_6DYLtP7YWFTGe7FQAevT&confirm=yTib) [Val](https://drive.google.com/uc?export=download&id=1B_RkTaMMOQXfJ7nDFCpq8GAth7yiW7vF) [Test](https://drive.google.com/uc?export=download&id=1-1eULJlV9nGrAwpdaEr5Ykchwfxn06kj)
+  - Mirror: [Train](https://collections.durham.ac.uk/downloads/r2x920fw88t) [Test](https://collections.durham.ac.uk/downloads/r26w924b850)
+- Style Change [Train](https://drive.google.com/uc?export=download&id=1R29IQ_bFLw3_6DYLtP7YWFTGe7FQAevT&confirm=yTib) [Val](https://drive.google.com/uc?export=download&id=1B_RkTaMMOQXfJ7nDFCpq8GAth7yiW7vF) [Test](https://drive.google.com/uc?export=download&id=1-1eULJlV9nGrAwpdaEr5Ykchwfxn06kj), 
+  - Mirror: [Train](https://collections.durham.ac.uk/downloads/r2b5644r533) [Val](https://collections.durham.ac.uk/downloads/r23484zg922) [Test](https://collections.durham.ac.uk/downloads/r2j67313844)
 - VLSP [Test](https://drive.google.com/uc?export=download&id=1ljTZZV5MpD07my2Vn1SVT3eQPKMVlHU5)
+  - Mirror: [Test](https://collections.durham.ac.uk/downloads/r2p5547r421)
 
 ## Citation
 If you use our benchmark please cite the paper:
