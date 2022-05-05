@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Hudson"
+  given-names: "G Thomas"
+  orcid: "https://orcid.org/0000-0003-3562-3593"
+- family-names: "Noura"
+  given-names: "Al Moubayed"
+  orcid: "https://orcid.org/0000-0001-8942-355X"
+title: "MuLD: The Multitask Long Document Benchmark"
+version: 1.0.0
+date-released: 2022-01-20
+url: "https://github.com/ghomasHudson/muld"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Hudson"
+    given-names: "G Thomas"
+    orcid: "https://orcid.org/0000-0003-3562-3593"
+  - family-names: "Noura"
+    given-names: "Al Moubayed"
+    orcid: "https://orcid.org/0000-0001-8942-355X"
+  journal: "arxiv"
+  title: "MuLD: The Multitask Long Document Benchmark"
+  year: 2022
