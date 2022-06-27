@@ -41,13 +41,16 @@ If you prefer to download the data files yourself:
 ## Citation
 If you use our benchmark please cite the paper:
 ```
-@misc{hudson2022muld,
-      title={MuLD: The Multitask Long Document Benchmark}, 
-      author={G Thomas Hudson and Noura Al Moubayed},
-      year={2022},
-      eprint={2202.07362},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@InProceedings{hudson-almoubayed:2022:LREC,
+  author    = {Hudson, George  and  Al Moubayed, Noura},
+  title     = {MuLD: The Multitask Long Document Benchmark},
+  booktitle = {Proceedings of the Language Resources and Evaluation Conference},
+  month     = {June},
+  year      = {2022},
+  address   = {Marseille, France},
+  publisher = {European Language Resources Association},
+  pages     = {3675--3685},
+  url       = {https://aclanthology.org/2022.lrec-1.392}
 }
 ```
 
