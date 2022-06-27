@@ -10,7 +10,7 @@ to an output longer than the input text.
 ![muld_table](https://user-images.githubusercontent.com/13795113/165515242-76f5fe2a-4cda-428c-aaa1-ab1ca961a8bb.png)
 
 
-This repo contains official code for the paper [MuLD: The Multitask Long Document Benchmark](https://arxiv.org/abs/2202.07362).
+This repo contains official code for the paper [MuLD: The Multitask Long Document Benchmark](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.392.pdf).
 
 ## Quickstart
 The easiest method is to use the [Huggingface Datasets](https://github.com/huggingface/datasets) library:
