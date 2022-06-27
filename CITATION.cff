@@ -47,3 +47,23 @@ keywords:
   - Multitask learning
   - NLP
 license: CC-BY-NC-4.0
+
+preferred-citation:
+  authors:
+    - given-names: G Thomas
+      family-names: Hudson
+      email: g.t.hudson@durham.ac.uk
+      affiliation: Durham University
+      orcid: 'https://orcid.org/0000-0003-3562-3593'
+    - given-names: Noura
+      name-particle: Al
+      family-names: Moubayed
+      orcid: 'https://orcid.org/0000-0001-8942-355X'
+      affiliation: Durham University
+  title: "MuLD: The Multitask Long Document Benchmark"
+  type: conference-paper
+  conference:
+    name: Language Resources and Evaluation Conference
+    date-start: 2022-06-21
+    date-end: 2022-06-23
+    
