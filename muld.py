@@ -39,7 +39,7 @@ The NarrativeQA Reading Comprehension Challenge Dataset consists of user-submitt
 }""",
         "urls": {
             datasets.Split.TRAIN: "https://drive.google.com/uc?export=download&confirm=yTib&id=1sUXIC6lmk9Khp2mnr9VZwQ-StDlHqTw1",
-            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=downloadid=1xdXEhLHtcqOZh0FbPhY_dnvNMg2bALtm",
+            datasets.Split.VALIDATION: "https://drive.google.com/uc?export=download&id=1xdXEhLHtcqOZh0FbPhY_dnvNMg2bALtm",
             datasets.Split.TEST: "https://drive.google.com/uc?export=download&id=1BPBXyfYWVGtOXVQv_hlqtvbT25rTQzGu",
         }
 },
