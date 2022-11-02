@@ -23,6 +23,13 @@ ds = datasets.load_dataset("ghomasHudson/muld", "OpenSubtitles")
 ds = datasets.load_dataset("ghomasHudson/muld", "AO3 Style Change Detection")
 ds = datasets.load_dataset("ghomasHudson/muld", "VLSP")
 ```
+Or by cloning this repo:
+```python
+import datasets
+ds = datasets.load_dataset("./muld.py", "NarrativeQA")
+...
+```
+
 ## Manual Download
 If you prefer to download the data files yourself:
 - NarrativeQA [Train](https://drive.google.com/uc?export=download&confirm=yTib&id=1sUXIC6lmk9Khp2mnr9VZwQ-StDlHqTw1) [Val](https://drive.google.com/uc?&confirm=yTib&export=download&id=1xdXEhLHtcqOZh0FbPhY_dnvNMg2bALtm) [Test](https://drive.google.com/uc?confirm=yTib&export=download&id=1BPBXyfYWVGtOXVQv_hlqtvbT25rTQzGu)
